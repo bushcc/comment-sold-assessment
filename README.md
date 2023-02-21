@@ -17,10 +17,13 @@ I used Laravel 10 and PHP 8.1 with PostgreSQL on a Vagrant (VirtualBox) VM (PHP 
 
    >BASE_DIRECTORY="/vagrant/ecom"
 
-3. In the console, run the migrations to create the schema:
+3. In the console, install the composer packages:
+   >composer install
+
+4. Run the migrations to create the schema:
    >php artisan migrate
 
-4. Run the database seeder to import the csv files:
+5. Run the database seeder to import the csv files:
    >php artisan db:seed
 
 ### Added Components
